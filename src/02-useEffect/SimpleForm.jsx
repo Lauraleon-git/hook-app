@@ -56,14 +56,7 @@ useEffect(()=>{
     value={email}
     onChange={onInputChange}
     />
-      <input 
-    type="password"
-    className="form-control mt-2"
-    placeholder="Contraseña"
-    name="password"
-    value={password}
-    onChange={onInputChange}
-    />
+      
     {(username==='strider2')&&<Message/>}
     </>
   )
