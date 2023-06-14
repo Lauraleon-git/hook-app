@@ -6,10 +6,11 @@ import ReactDOM from 'react-dom/client'
 //import { SimpleForm } from './02-useEffect/SimpleForm';
 // import { FormWithCustomhook } from './02-useEffect/FormWithCustomhook.jsx';
 import './index.css'
-import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks.jsx';
+// import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks.jsx';
+import { FocusScreen } from './05-useRef/FocusScreen';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
  // <React.StrictMode>
-    <MultipleCustomHooks/>
+    <FocusScreen/>
   //</React.StrictMode>,
 )
